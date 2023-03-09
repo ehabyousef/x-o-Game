@@ -101,6 +101,6 @@ document.querySelector(".reset").addEventListener("click", () => {
   }, 800);
   setTimeout(function () {
     location.reload();
-  }, 3000);
+  }, 2800);
 });
 // +++++++++++++++++++++++++
