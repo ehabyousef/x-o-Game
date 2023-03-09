@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  position: relative;
+  font-family: "Mynerve", cursive;
+  font-family: "Rubik Iso", cursive;
+}
+.Title {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  color: rgb(0, 183, 255);
+  background-color: #820000;
+  padding: 10px;
+  margin: 30px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.Title span {
+  color: rgb(206, 125, 20);
+}
+.game {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* background-color: rgba(255, 255, 255, 0.137); */
+  height: 590px;
+  gap: 20px;
+  margin: 20px 30px;
+  padding: 25px;
+}
+@media (min-width: 320px) {
+  .game {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  }
+}
+@media (min-width: 490px) {
+  .game {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  }
+}
+@media (min-width: 610px) {
+  .game {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+@media (min-width: 768px) {
+  .game {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(206px, 1fr));
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .game {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(259px, 1fr));
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .game {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    padding: 10px;
+  }
+}
+@media (min-width: 1500px) {
+  .game {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    padding: 10px;
+  }
+}
+.square {
+  background-color: #4e6c50;
+  border-radius: 25px;
+  width: 80%;
+  height: 80%;
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.square:hover {
+  background-color: #b99b6b;
+}
+.reset {
+  background-color: #db6400;
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  border-radius: 35px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px #16697a dashed;
+  cursor: pointer;
+}
