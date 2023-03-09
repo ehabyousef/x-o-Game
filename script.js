@@ -9,6 +9,7 @@ function end(num1, num2, num3) {
   squares[num1].style.background = "#F2CD5C";
   squares[num2].style.background = "#F2CD5C";
   squares[num3].style.background = "#F2CD5C";
+  document.querySelector("#sound").play();
 }
 
 // palying function
