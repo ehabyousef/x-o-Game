@@ -105,3 +105,11 @@ body {
   border: 5px #16697a solid;
   cursor: pointer;
 }
+.me {
+  font-family: "Gulzar", serif;
+  font-family: "Mynerve", cursive;
+  font-family: "Rubik Iso", cursive;
+  font-family: "Shantell Sans", cursive;
+  font-size: 30px;
+  color: white;
+}
