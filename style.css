@@ -102,6 +102,6 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  border: 5px #16697a dashed;
+  border: 5px #16697a solid;
   cursor: pointer;
 }
