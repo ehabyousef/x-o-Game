@@ -12,11 +12,11 @@ body {
 .Title {
   display: flex;
   justify-content: space-evenly;
-  font-size: 25px;
+  font-size: 22px;
   color: rgb(0, 183, 255);
   background-color: #820000;
   padding: 10px;
-  margin: 30px;
+  margin: 30px 10px;
   font-weight: bold;
   font-size: 50px;
 }
@@ -114,6 +114,6 @@ body {
   color: white;
   padding: 20px;
 }
-.me span{
+.me span {
   color: #0ef;
 }
