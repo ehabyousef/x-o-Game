@@ -103,4 +103,4 @@ document.querySelector(".reset").addEventListener("click", () => {
     location.reload();
   }, 2800);
 });
-// +++++++++++++++++++++++++
+
